@@ -1,70 +1,60 @@
-# TASK FE-001 — Vite React & Tailwind Setup (`tailwind.config.js`)
+- [x] TASK_FE_001 — Inicialización del Proyecto Web React 18, Vite y Tailwind CSS 📅 2026-08-05 08:00
+	- [x] Paso 1: Navegar al directorio web-ui/ y verificar la instalación de dependencias
+		- [x] Verificar la presencia de react, react-dom, vite y tailwindcss en package.json
+	- [x] Paso 2: Configurar la estructura física de directorios en src/
+		- [x] Crear src/components/ (ui, layout, dashboard, ingestion, discrepancies, templates, audit, ai)
+		- [x] Crear src/pages/, src/services/, src/store/ y src/utils/
+	- [x] Paso 3: Verificar scripts de ejecución e inicialización de servidor Vite
+		- [x] Ejecutar npm install
+		- [x] Probar npm run dev en servidor local
+
+# TASK_FE_001 — Inicialización del Proyecto Web React 18, Vite y Tailwind CSS
 
 **Módulo:** `web-ui/`  
-**Tipo de Archivo:** Configuración de Proyecto Vite React 18 & Tailwind CSS  
-**Prioridad:** CRÍTICA — Configura los tokens de diseño corporativo y la base del SPA.  
-**Depende de:** Node.js 18+  
-**Bloquea:** Todos los componentes y vistas React  
+**Porcentaje de Avance:** 0% -> 4%  
+**Estado:** COMPLETADO  
+**Prioridad:** ALTA  
+**Depende de:** Tareas previas de la secuencia  
 
 ---
 
 ## 1. Propósito y Justificación Técnica
 
-Inicializa la aplicación Single Page Application (SPA) `web-ui` con Vite 5.x, React 18, y Tailwind CSS. Registra la paleta cromática corporativa (Navy `#0B192C`, Yellow `#FFD200`, Crimson `#E11D48`), las fuentes `Inter` y `JetBrains Mono` y las utilidades del sistema.
+Establece la base física del cliente web transaccional (0%). Estructura el directorio web-ui/ en carpetas modulares dividiendo componentes de interfaz, páginas, tiendas de estado Zustand y servicios REST.
 
 ---
 
-## 2. Instrucciones de Implementación Paso a Paso
+## 2. Prerrequisitos de Conocimiento Técnico y Conceptos Clave
 
-### Paso 1: Crear el proyecto Vite React
-1. En la raíz de `SmartReconcile`, navega a `web-ui/`.
-2. Ejecuta: `npx create-vite@latest . --template react`.
-3. Instala dependencias base y de desarrollo:
-   `npm install lucide-react zustand axios clsx tailwind-merge`
-   `npm install -D tailwindcss postcss autoprefixer`
+Para abordar esta tarea con éxito, el desarrollador debe dominar y aplicar los siguientes conceptos:
 
-### Paso 2: Configurar Tailwind CSS y Tokens
-1. Inicializa Tailwind: `npx tailwindcss init -p`.
-2. En `tailwind.config.js`, extiende la paleta de colores:
-   ```javascript
-   module.exports = {
-     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-     theme: {
-       extend: {
-         colors: {
-           brand: {
-             navy: "#0B192C",
-             navyLight: "#1E3E62",
-             yellow: "#FFD200",
-             crimson: "#E11D48",
-             surface: "#080F19",
-             card: "#0F1C2E",
-             border: "#1E293B"
-           }
-         },
-         fontFamily: {
-           sans: ['Inter', 'sans-serif'],
-           mono: ['JetBrains Mono', 'monospace']
-         }
-       }
-     },
-     plugins: []
-   };
-   ```
+* **Arquitectura de Aplicación React 18 (SPA):** Comprensión del ciclo de vida de componentes funcionales, renderizado declarativo y Hooks de React (useState, useEffect, useMemo, useCallback).
+* **Empaquetador Vite 5.x para JSX:** Funcionamiento de la transformación de archivos .jsx a módulos JS nativos y configuración del servidor HMR (Hot Module Replacement).
+* **Estructuración de Proyectos Frontend Financieros:** Organización de capas de presentación para dashboards de conciliación con alto volumen de datos y estados complejos.
 
 ---
 
-## 3. Post-Condiciones y Criterios de Tarea Completada con Éxito (Acceptance Criteria)
+## 3. Instrucciones de Implementación Paso a Paso
 
-| # | Condición que Debe Cumplirse | Consecuencia / Riesgo si Falla |
+### Paso 1: Ingresar a la carpeta web-ui/ y verificar dependencias
+1. Dirígete al directorio `web-ui/` en la raíz del repositorio de SmartReconcile.
+2. Verifica que `package.json` contenga las dependencias `react`, `react-dom`, `vite` y `@vitejs/plugin-react`.
+
+### Paso 2: Crear la estructura modular de carpetas en `src/`
+1. Crea la carpeta `src/components/` dividida en subcarpetas `ui/`, `layout/`, `dashboard/`, `ingest/`, `discrepancies/`, `templates/`, `audit/` y `ai/`.
+2. Crea `src/pages/` para las vistas de la aplicación.
+3. Crea `src/services/` para el cliente HTTP API.
+4. Crea `src/store/` para las tiendas de estado global Zustand.
+
+### Paso 3: Inicialización y prueba de servidor
+1. Ejecuta `npm install` para resolver el árbol de módulos.
+2. Verifica que `npm run dev` inicie el servidor de desarrollo sin advertencias.
+
+---
+
+## 4. Criterios de Aceptación y Verificación
+
+| # | Criterio de Aceptación | Método de Verificación |
 |---|---|---|
-| 1 | Tokens `brand.navy`, `brand.yellow`, `brand.crimson` disponibles en clases Tailwind | Fallos en el renderizado de estilos |
-| 2 | Compilación `npm run build` sin errores en carpeta `dist` | Empaquetado roto |
-
----
-
-## 4. Comando de Verificación
-
-```bash
-npm run build
-```
+| 1 | Estructura e interacción implementada conforme a la especificación | Inspección visual en navegador y herramientas de desarrollo F12 |
+| 2 | Cero errores no capturados en consola de JavaScript | Verificar consola de DevTools sin excepciones rojas |
