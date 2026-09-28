@@ -1,12 +1,9 @@
-
-
-
-- [ ] TASK_FE_002 — Sistema de Diseño Financiero CSS y Tokens Dark Mode HSL ❌ 2026-08-06 📅 2026-08-05 08:30
-	- [ ] Paso 1: Configurar tailwind.config.js con paleta de colores HSL financiera
-		- [ ] Declarar colores de superficie oscura (slate/zinc), azul primario corporativo, verde éxito de conciliación y rojo discrepancia
-	- [ ] Paso 2: Configurar src/index.css con directivas Tailwind y Reset
-		- [ ] Importar @tailwind base, components, utilities ❌ 2026-08-06
-		- [ ] Configurar tipografía Inter y scrollbars personalizadas para tablas masivas
+- [x] TASK_FE_002 — Sistema de Diseño Financiero CSS y Tokens Dark Mode HSL 📅 2026-08-05 08:30
+	- [x] Paso 1: Configurar tailwind.config.js con paleta de colores HSL financiera
+		- [x] Declarar colores de superficie oscura (slate/zinc), azul primario corporativo, verde éxito de conciliación y rojo discrepancia
+	- [x] Paso 2: Configurar src/index.css con directivas Tailwind y Reset
+		- [x] Importar @tailwind base, components, utilities
+		- [x] Configurar tipografía Inter y scrollbars personalizadas para tablas masivas
 
 # TASK_FE_002 — Sistema de Diseño Financiero CSS y Tokens Dark Mode HSL
 

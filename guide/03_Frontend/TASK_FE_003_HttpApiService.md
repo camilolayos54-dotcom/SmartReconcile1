@@ -1,12 +1,10 @@
-
-
-- [ ] TASK_FE_003 — Cliente API REST Axios, Interceptores JWT y Manejo de Errores 📅 2026-08-05 09:00
-	- [ ] Paso 1: Crear el archivo src/services/api.js
-		- [ ] Instanciar cliente Axios con baseURL /api/v1' y timeout de 30 segundos
-		- [ ] Configurar interceptor de solicitud inyectando la cabecera Authorization: Bearer <"jwt>
-	- [ ] Paso 2: Configurar interceptor de respuesta HTTP
-		- [ ] Capturar errores 401 Unauthorized provocando redirección a login
-		- [ ] Capturar errores 500 y formatear mensajes de respuesta
+- [x] TASK_FE_003 — Cliente API REST Axios, Interceptores JWT y Manejo de Errores 📅 2026-08-05 09:00
+	- [x] Paso 1: Crear el archivo src/services/api.js
+		- [x] Instanciar cliente Axios con baseURL '/api/v1' y timeout de 30 segundos
+		- [x] Configurar interceptor de solicitud inyectando la cabecera Authorization: Bearer <jwt>
+	- [x] Paso 2: Configurar interceptor de respuesta HTTP
+		- [x] Capturar errores 401 Unauthorized provocando redirección a login
+		- [x] Capturar errores 500 y formatear mensajes de respuesta
 
 # TASK_FE_003 — Cliente API REST Axios, Interceptores JWT y Manejo de Errores
 

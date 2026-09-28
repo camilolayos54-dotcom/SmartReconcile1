@@ -1,11 +1,9 @@
-
-
-- [ ] TASK_FE_007 — Página Institucional y Promocional de la Plataforma 📅 2026-08-05 11:00
-	- [ ] Paso 1: Crear el archivo src/pages/LandingPage.jsx
-		- [ ] Maquetar sección Hero con llamada a la acción 'Iniciar Prueba / Iniciar Sesión'
-		- [ ] Crear bloque de características: Conciliación Inteligente con IA, Procesamiento Masivo, Audit Trail 100%
-	- [ ] Paso 2: Conectar botones de acceso
-		- [ ] Vincular botón de acceso al flujo de Login
+- [x] TASK_FE_007 — Página Institucional y Promocional de la Plataforma 📅 2026-08-05 11:00
+	- [x] Paso 1: Crear el archivo src/pages/LandingPage.jsx
+		- [x] Maquetar sección Hero con llamada a la acción 'Iniciar Prueba / Iniciar Sesión'
+		- [x] Crear bloque de características: Conciliación Inteligente con IA, Procesamiento Masivo, Audit Trail 100%
+	- [x] Paso 2: Conectar botones de acceso
+		- [x] Vincular botón de acceso al flujo de Login
 
 # TASK_FE_007 — Página Institucional y Promocional de la Plataforma
 

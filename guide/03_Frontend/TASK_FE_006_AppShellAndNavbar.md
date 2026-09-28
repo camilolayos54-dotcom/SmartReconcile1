@@ -1,12 +1,10 @@
-
-
-- [ ] TASK_FE_006 — App Shell, Sidebar Navegacional y Layout Principal 📅 2026-08-05 10:30
-	- [ ] Paso 1: Crear src/components/layout/AppShell.jsx y Sidebar.jsx
-		- [ ] Diseñar layout de panel administrativo con barra lateral fija y cabecera superior
-		- [ ] Incluir enlaces a Dashboard, Ingestión, Discrepancias, Plantillas, Auditoría y Configuración
-		- [ ] Mostrar selector de Workspace activo e información del usuario logueado
-	- [ ] Paso 2: Implementar navegación reactiva
-		- [ ] Resaltar el enlace activo según la ruta actual de la aplicación
+- [x] TASK_FE_006 — App Shell, Sidebar Navegacional y Layout Principal 📅 2026-08-05 10:30
+	- [x] Paso 1: Crear src/components/layout/AppShell.jsx y Sidebar.jsx
+		- [x] Diseñar layout de panel administrativo con barra lateral fija y cabecera superior
+		- [x] Incluir enlaces a Dashboard, Ingestión, Discrepancias, Plantillas, Auditoría y Configuración
+		- [x] Mostrar selector de Workspace activo e información del usuario logueado
+	- [x] Paso 2: Implementar navegación reactiva
+		- [x] Resaltar el enlace activo según la ruta actual de la aplicación
 
 # TASK_FE_006 — App Shell, Sidebar Navegacional y Layout Principal
 

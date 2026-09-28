@@ -1,11 +1,9 @@
-
-
-- [ ] TASK_FE_004 — Tienda de Estado Global Zustand para Autenticación y Workspace 📅 2026-08-05 09:30
-	- [ ] Paso 1: Crear el archivo src/store/useAuthStore.js
-		- [ ] Definir el estado global: user, token, activeWorkspace, isAuthenticated
-		- [ ] Implementar acciones: loginSuccess(user, token), logout(), setActiveWorkspace(workspace)
-	- [ ] Paso 2: Configurar persistencia de estado
-		- [ ] Utilizar el middleware persist de Zustand para almacenar en localStorage
+- [x] TASK_FE_004 — Tienda de Estado Global Zustand para Autenticación y Workspace 📅 2026-08-05 09:30
+	- [x] Paso 1: Crear el archivo src/store/useAuthStore.js
+		- [x] Definir el estado global: user, token, activeWorkspace, isAuthenticated
+		- [x] Implementar acciones: loginSuccess(user, token), logout(), setActiveWorkspace(workspace)
+	- [x] Paso 2: Configurar persistencia de estado
+		- [x] Utilizar el middleware persist de Zustand para almacenar en localStorage
 
 # TASK_FE_004 — Tienda de Estado Global Zustand para Autenticación y Workspace
 

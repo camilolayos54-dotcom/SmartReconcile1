@@ -1,10 +1,9 @@
-
-- [ ] TASK_FE_005 — Componente Sistema de Notificaciones Toast y Error Boundary 📅 2026-08-05 10:00
-	- [ ] Paso 1: Crear src/components/ui/Toast.jsx y src/store/useToastStore.js
-		- [ ] Crear tienda Zustand useToastStore gestionando la lista de notificaciones activas
-		- [ ] Crear componente Toast.jsx renderizando alertas flotantes con animaciones Tailwind
-	- [ ] Paso 2: Crear ErrorBoundary para captura de fallos de renderizado React
-		- [ ] Implementar ErrorBoundary.jsx para prevenir pantallas blancas ante excepciones en componentes
+- [x] TASK_FE_005 — Componente Sistema de Notificaciones Toast y Error Boundary 📅 2026-08-05 10:00
+	- [x] Paso 1: Crear src/components/ui/Toast.jsx y src/store/useToastStore.js
+		- [x] Crear tienda Zustand useToastStore gestionando la lista de notificaciones activas
+		- [x] Crear componente Toast.jsx renderizando alertas flotantes con animaciones Tailwind
+	- [x] Paso 2: Crear ErrorBoundary para captura de fallos de renderizado React
+		- [x] Implementar ErrorBoundary.jsx para prevenir pantallas blancas ante excepciones en componentes
 
 # TASK_FE_005 — Componente Sistema de Notificaciones Toast y Error Boundary
 
